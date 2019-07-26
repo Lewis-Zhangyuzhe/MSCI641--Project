@@ -1,0 +1,9 @@
+fnc/data/test.tsv filter=lfs diff=lfs merge=lfs -text
+fnc/data/train.tsv filter=lfs diff=lfs merge=lfs -text
+fnc/data/competition_pair.jsonl filter=lfs diff=lfs merge=lfs -text
+fnc/data/pair.jsonl filter=lfs diff=lfs merge=lfs -text
+fnc-1-baseline/features/test_pair.npy filter=lfs diff=lfs merge=lfs -text
+fnc-1-baseline/features/train_pair.npy filter=lfs diff=lfs merge=lfs -text
+my_nlp_project_for_submission/checkpoint/Bidirectional_lstm_300Length_40epoch_40_0.9520.h5 filter=lfs diff=lfs merge=lfs -text
+my_nlp_project_for_submission/checkpoint/LSTM[[:space:]]with[[:space:]]conditional[[:space:]]encoding[[:space:]]and[[:space:]]attention_36_0.9548.h5 filter=lfs diff=lfs merge=lfs -text
+my_nlp_project_for_submission/checkpoint/LSTM_with_attention_128Length_40Epoch_lr=0.001_39_0.9478.h5 filter=lfs diff=lfs merge=lfs -text
