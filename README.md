@@ -1,5 +1,4 @@
 # msci641
-https://github.com/0517/msci641
 
 #### Author
 SIHAN WU
@@ -15,7 +14,7 @@ This directory contains all the code we have for this FNC stance detection proje
 
 - Result plotting and BERT feature extraction description: ./Project.ipynb
         
-        The extracted features(CLS token representation) are first store in .jsonl file in ./fnc/data. The .jsonl is further processed to produced .npy, which is used by GradientBoost. Detailed processing please check the code.
+The extracted features(CLS token representation) are first store in .jsonl file in ./fnc/data. The .jsonl is further processed to produced .npy, which is used by GradientBoost. Detailed processing please check the code.
         
 - BERT CLS Token + GradientBoost : ./fnc-1-baseline/grad_bert.py
 - Original baseline GradientBoost: ./fnc-1-baseline/fnc_kfold.py
